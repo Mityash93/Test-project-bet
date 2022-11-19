@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.button {
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 15px 70px;
+
+  &.blue {
+    border: 1px solid $white;
+    background-color: $blue;
+    color: $white;
+    &:hover {
+      border: 1px solid $blue;
+      background-color: $white;
+      color: $blue;
+    }
+  }
+
+  &.white {
+    border: 1px solid $btn-gray;
+    background-color: $white;
+    color: $btn-black;
+    &:hover {
+      border: 1px solid $blue;
+      background-color: $white;
+      color: $blue;
+    }
+  }
+}

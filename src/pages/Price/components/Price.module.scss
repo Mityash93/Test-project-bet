@@ -1,0 +1,13 @@
+@import "../../../styles/variables.scss";
+
+.intro {
+  min-height: 100vh;
+  background: url("../../../assets/img/Main-img.png") no-repeat center;
+  &__content {
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    padding-top: 150px;
+    color: $blue;
+  }
+}

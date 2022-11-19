@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.header {
+  background-color: $header-bg;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    gap: 10px;
+    @media screen and (max-width: 1200px) {
+      padding: 32px 10px;
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 20px 10px;
+    }
+  }
+  &__logo {
+    font-weight: 800;
+    font-size: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &_white {
+      color: $white;
+      transition: 0.3s;
+    }
+
+    &_blue {
+      color: $logo-blue;
+    }
+
+    &:hover {
+      & .header__logo_white {
+        color: $logo-blue;
+      }
+    }
+  }
+
+  &__nav {
+    max-width: 435px;
+    width: 100%;
+
+    &_list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &_item {
+      color: $white;
+      font-weight: 600;
+      font-size: 13px;
+
+      &:hover {
+        color: $nav-blue;
+      }
+    }
+  }
+}
