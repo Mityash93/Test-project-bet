@@ -1,45 +1,43 @@
 @import "../../styles/variables.scss";
 
 .intro {
-    background: url("../../assets/img/Main-img.png") no-repeat center;
-    background-size: cover;
-  
-    &__content {
-      padding: 200px 0;
-      @media screen and (max-width: 1200px) {
-        padding: 200px 10px;
-      }
-      @media screen and (max-width: 768px) {
-        padding: 150px 10px;
-      }
+  background: url("../../assets/img/Main-img.png") no-repeat center;
+  background-size: cover;
+
+  &__content {
+    padding: 200px 0;
+    @media screen and (max-width: 1200px) {
+      padding: 200px 10px;
     }
-  
-    &__title {
-      margin-bottom: 80px;
-      max-width: 780px;
-      font-weight: 700;
-      font-size: 48px;
-      text-transform: uppercase;
-      & .blue {
-        color: $blue;
-      }
-      @media screen and (max-width: 768px) {
-        font-size: 36px;
-      }
+    @media screen and (max-width: 768px) {
+      padding: 150px 10px;
     }
-  
-    &__description {
-      margin-bottom: 10px;
-      font-weight: 700;
-      font-size: 20px;
-      color: $black;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+    max-width: 780px;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    &_blue {
+      color: $blue;
     }
-  
-    &__list {
-      margin-bottom: 80px;
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
     }
-  
-    &__item {
+  }
+
+  &__description {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: $black;
+  }
+
+  &__list {
+    margin-bottom: 80px;
+    &_item {
       display: block;
       margin-bottom: 5px;
       font-size: 20px;
@@ -50,9 +48,16 @@
         padding: 0 10px;
       }
     }
-    &__actions {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      grid-gap: 30px;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 650px) {
+      justify-content: center;
     }
   }
+}

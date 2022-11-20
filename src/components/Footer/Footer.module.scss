@@ -1,0 +1,93 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  background-color: $footer-bg;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+    &_line {
+      height: 18px;
+      border-right: 1px solid $footer-gray;
+      @media screen and (max-width: 1200px) {
+        max-width: 400px;
+        height: unset;
+        width: 100%;
+        border-right: unset;
+        border-bottom: 1px solid $footer-gray;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  &__label {
+    font-weight: 400;
+    font-size: 13px;
+    color: $white;
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+    }
+  }
+  &__pay {
+    display: flex;
+    justify-content: space-between;
+    max-width: 395px;
+    width: 100%;
+    & li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    & span {
+      padding-left: 25px;
+      font-weight: 400;
+      font-size: 13px;
+      color: $footer-gray;
+    }
+    &_first {
+      background: url("../../assets/img/qiwi.svg") no-repeat;
+    }
+    &_second {
+      background: url("../../assets/img/yandex-money.svg") no-repeat;
+    }
+    &_third {
+      background: url("../../assets/img/web-money.svg") no-repeat;
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 306px;
+    width: 100%;
+    & a {
+      padding-left: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 400;
+      font-size: 13px;
+      color: $footer-gray;
+      &:hover {
+        color: $blue;
+      }
+    }
+    &_first {
+      & a {
+        background: url("../../assets/img/mail.svg") no-repeat;
+      }
+    }
+    &_second {
+      & a {
+        background: url("../../assets/img/vk.svg") no-repeat;
+      }
+    }
+  }
+}

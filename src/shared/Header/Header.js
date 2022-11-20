@@ -29,9 +29,9 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/#order" className={s.header__nav_item}>
+                <a href="/#order" className={s.header__nav_item}>
                   Оформить заказ
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>

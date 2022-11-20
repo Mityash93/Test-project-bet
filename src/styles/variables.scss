@@ -1,45 +1,45 @@
-//common
+//shared
 $white: #fff;
+$blue: #3e9cdc;
 $black: #000;
-$blue: #3E9CDC;
 $dark-blue: #286690;
-$gray: #BBBBBB;
+$gray: #bbbbbb;
+
+// header
+$header-bg: rgba(16, 16, 29, 0.9);
+$nav-blue: #43abf0;
+$logo-blue: #42a9ed;
+
+//order
+$dots-bg: #c4c4c4;
+$order-bg: #272733;
+
+//footer
+$footer-gray: #c3c3c3;
+$footer-bg: #3d4050;
 
 //buttons
-$btn-gray: #6F6D7B;
-$btn-black: #2A2B30;
+$btn-black: #2a2b30;
+$btn-gray: #6f6d7b;
 
 //input
 $input-bg: rgba(255, 255, 255, 0.85);
 $input-color: #272733;
 $placeholder-color: #272733;
-$range-bg:rgba(255, 255, 255, 0.7);
-$range-thumb: #42A9ED;
+$range-bg: rgba(255, 255, 255, 0.7);
+$range-thumb: #42a9ed;
 
 //select
 $select-bg: rgba(255, 255, 255, 0.85);
 $select-color: #272733;
 $selected-bg: rgba(61, 64, 80, 0.85);
-$select-item-hov: #42A9ED;
+$select-item-hov: #42a9ed;
 $select-list-bg: #272733;
-$select-brdr: #3D4050;
+$select-brdr: #3d4050;
 
-// header
-$header-bg: rgba(16, 16, 29, 0.9);
-$logo-blue: #42A9ED;
-$nav-blue: #43ABF0;
-
-//order
-$order-bg: #272733;
-$dots-bg: #C4C4C4;
-
-//footer
-$footer-bg: #3D4050;
-$footer-gray: #C3C3C3;
-
-$title-background: #FFFFFF;
+$title-background: #ffffff;
 $box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
 $border-radius: 20px;
-$color: #4793FF;
+$color: #4793ff;
 $title-color: #000000;
-$base-color: #939CB0;
+$base-color: #939cb0;

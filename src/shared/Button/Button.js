@@ -5,11 +5,11 @@ const Button = ({ text, description }) => {
   return (
     <div>
       {description === "blue" ? (
-        <button type="submit" className={`${s.button} ${s.blue}`}>
+        <button type="submit" className={`${s.button} ${s.button__blue}`}>
           {text}
         </button>
       ) : (
-        <button type="submit" className={`${s.button} ${s.white}`}>
+        <button type="submit" className={`${s.button} ${s.button__white}`}>
           {text}
         </button>
       )}

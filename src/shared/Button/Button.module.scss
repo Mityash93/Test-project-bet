@@ -5,23 +5,25 @@
   font-weight: 400;
   font-size: 13px;
   text-transform: uppercase;
-  padding: 15px 70px;
+  height: 50px;
+  padding: 15px 10px;
 
-  &.blue {
+  &__blue {
     border: 1px solid $white;
     background-color: $blue;
     color: $white;
+    width: 300px;
     &:hover {
       border: 1px solid $blue;
       background-color: $white;
       color: $blue;
     }
   }
-
-  &.white {
+  &__white {
     border: 1px solid $btn-gray;
     background-color: $white;
     color: $btn-black;
+    width: 300px;
     &:hover {
       border: 1px solid $blue;
       background-color: $white;
