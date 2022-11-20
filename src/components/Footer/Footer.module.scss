@@ -9,7 +9,7 @@
     gap: 20px;
     padding: 30px 10px;
     flex-wrap: wrap;
-    &_line {
+    &_divider {
       height: 18px;
       border-right: 1px solid $footer-gray;
       @media screen and (max-width: 1200px) {
@@ -44,21 +44,6 @@
       justify-content: space-between;
       gap: 10px;
     }
-    & span {
-      padding-left: 25px;
-      font-weight: 400;
-      font-size: 13px;
-      color: $footer-gray;
-    }
-    &_first {
-      background: url("../../assets/img/qiwi.svg") no-repeat;
-    }
-    &_second {
-      background: url("../../assets/img/yandex-money.svg") no-repeat;
-    }
-    &_third {
-      background: url("../../assets/img/web-money.svg") no-repeat;
-    }
   }
 
   &__contacts {
@@ -68,7 +53,6 @@
     max-width: 306px;
     width: 100%;
     & a {
-      padding-left: 25px;
       display: flex;
       align-items: center;
       gap: 10px;
@@ -77,16 +61,6 @@
       color: $footer-gray;
       &:hover {
         color: $blue;
-      }
-    }
-    &_first {
-      & a {
-        background: url("../../assets/img/mail.svg") no-repeat;
-      }
-    }
-    &_second {
-      & a {
-        background: url("../../assets/img/vk.svg") no-repeat;
       }
     }
   }

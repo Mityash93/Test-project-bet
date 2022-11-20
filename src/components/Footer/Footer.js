@@ -1,5 +1,11 @@
 import React from "react";
 import s from "./Footer.module.scss";
+import qiwi from "../../assets/images/qiwi.svg";
+import money from "../../assets/images/web-money.svg";
+import yandex from "../../assets/images/yandex-money.svg";
+import mail from "../../assets/images/mail.svg";
+import vk from "../../assets/images/vk.svg";
+import FooterPay from "./FooterPay";
 
 const Footer = () => {
   return (
@@ -9,27 +15,23 @@ const Footer = () => {
           <span className={s.footer__label}>
             © 2018 «LOREMIPSUM.NET» Все права защищены.
           </span>
-          <div className={s.footer__content_line}></div>
+          <div className={s.footer__content_divider}></div>
           <ul className={s.footer__pay}>
-            <li className={s.footer__pay_first}>
-              <span>Qiwi wallet</span>
-            </li>
-            <li className={s.footer__pay_second}>
-              <span>Yandex Money</span>
-            </li>
-            <li className={s.footer__pay_third}>
-              <span>Web Money</span>
-            </li>
+            <FooterPay img={qiwi} text={"Qiwi wallet"} />
+            <FooterPay img={yandex} text={"Yandex Money"} />
+            <FooterPay img={money} text={"Web Money"} />
           </ul>
-          <div className={s.footer__content_line}></div>
-          <ul className={`${s.footer__contacts} ${s.footer_contacts}`}>
-            <li className={s.footer__contacts_first}>
+          <div className={s.footer__content_divider}></div>
+          <ul className={s.footer__contacts}>
+            <li>
               <a href="mailto:info@ipsum228.com">
+                <img src={mail} alt="mail" />
                 <span> info@ipsum228.com </span>
               </a>
             </li>
-            <li className={s.footer__contacts_second}>
+            <li>
               <a href="https://vk.com/">
+                <img src={vk} alt="vk" />
                 <span>Мы вконтакте</span>
               </a>
             </li>

@@ -1,0 +1,9 @@
+@import "../../styles/variables.scss";
+
+.footer__pay_item {
+  & span {
+    font-weight: 400;
+    font-size: 13px;
+    color: $footer-gray;
+  }
+}

@@ -2,7 +2,8 @@
 
 .order {
   padding: 120px 0 150px 0;
-  background: url("../../assets/img/Order-img.png") no-repeat center $order-bg;
+  background: url("../../assets/images/Order-img.png") no-repeat center
+    $order-bg;
 
   &__heading {
     margin-bottom: 30px;
@@ -32,5 +33,17 @@
   }
   &__button {
     text-align: center;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 80px;
+    position: relative;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1200px) {
+      justify-content: center;
+      gap: 30px;
+    }
   }
 }
