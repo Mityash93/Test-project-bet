@@ -1,0 +1,83 @@
+@import "../../styles/variables.scss";
+
+.order-form {
+  &__top {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 370px));
+    justify-content: center;
+    grid-gap: 30px;
+    margin-bottom: 30px;
+    @media screen and (max-width: 480px) {
+      padding: 0 10px;
+    }
+  }
+  &__middle {
+    display: grid;
+    grid-template-columns: 1fr 370px;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: minmax(300px, 770px);
+      justify-content: center;
+      padding: 0 10px;
+    }
+  }
+  &__diapazon {
+    flex-grow: 1;
+    @media screen and (max-width: 768px) {
+      max-width: 370px;
+      margin: 0 auto;
+    }
+  }
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+    margin-bottom: 5px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 12px 24px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: $white;
+    border: 1px solid $blue;
+    border-radius: 3px;
+    transition: 0.3s;
+    &:hover {
+      background-color: $blue;
+      border: 1px solid $white;
+    }
+    &::before {
+      display: block;
+      content: "";
+      width: 18px;
+      height: 20px;
+      background: url("../../assets/images/file.svg");
+    }
+    & input {
+      display: none;
+    }
+    @media screen and (max-width: 1200px) {
+      max-width: 370px;
+      margin: 0 auto;
+    }
+  }
+  &__button {
+    text-align: center;
+  }
+}

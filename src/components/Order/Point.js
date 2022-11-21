@@ -1,9 +1,9 @@
 import React from 'react';
-import s from './Point.module.scss'
+import './Point.scss'
 
 const Point = () => {
   return (
-    <li className={s.order__points_item} ></li>
+    <li className="order-list__points-item"></li>
   )
 }
 

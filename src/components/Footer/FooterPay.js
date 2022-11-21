@@ -1,9 +1,9 @@
 import React from "react";
-import s from './FooterPay.module.scss';
+import './FooterPay.scss';
 
 const FooterPay = ({img, text}) => {
   return (
-    <li className={s.footer__pay_item}>
+    <li className="footer__pay-item">
       <img src={img} alt={text} />
       <span>{text}</span>
     </li>

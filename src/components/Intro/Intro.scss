@@ -20,7 +20,7 @@
     font-weight: 700;
     font-size: 48px;
     text-transform: uppercase;
-    &_blue {
+    &-blue {
       color: $blue;
     }
     @media screen and (max-width: 768px) {
@@ -37,7 +37,7 @@
 
   &__list {
     margin-bottom: 80px;
-    &_item {
+    &-item {
       display: block;
       margin-bottom: 5px;
       font-size: 20px;

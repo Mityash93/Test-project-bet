@@ -1,35 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import s from "./Header.module.scss";
+import "./Header.scss"
+
 
 const Header = () => {
   return (
-    <header className={s.header}>
+    <header className="header">
       <div className="container">
-        <div className={s.header__content}>
-          <div className={s.header__logo}>
-            <span className={s.header__logo_white}>LoremIpsum.</span>
-            <span className={s.header__logo_blue}>Net</span>
+        <div className="header__content">
+          <div className="header__logo-wrapper">
+            <span className="header__logo-white">LoremIpsum.</span>
+            <span className="header__logo-blue">Net</span>
           </div>
-          <nav className={s.header__nav}>
-            <ul className={s.header__nav_list}>
+          <nav className="header__nav header-nav">
+            <ul className="header-nav__list">
               <li>
-                <Link to="/" className={s.header__nav_item}>
+                <Link to="/" className="header-nav__item">
                   Бизнес
                 </Link>
               </li>
               <li>
-                <Link to="/AboutUs" className={s.header__nav_item}>
+                <Link to="/AboutUs" className="header-nav__item">
                   О нас
                 </Link>
               </li>
               <li>
-                <Link to="/Price" className={s.header__nav_item}>
+                <Link to="/Price" className="header-nav__item">
                   Цены
                 </Link>
               </li>
               <li>
-                <a href="/#order" className={s.header__nav_item}>
+                <a href="/#order" className="header-nav__item">
                   Оформить заказ
                 </a>
               </li>

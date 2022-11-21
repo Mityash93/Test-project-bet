@@ -1,14 +1,14 @@
 @import "../../styles/variables.scss";
 
-.order__item {
+.order-list {
   position: relative;
   z-index: 1;
-  &_step {
+  &__step {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  &_img {
+  &__img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
     border-radius: 50%;
     overflow: hidden;
   }
-  &_text {
+  &__text {
     font-size: 16px;
     line-height: 19px;
     color: $white;
@@ -28,11 +28,8 @@
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
-    // display: -webkit-box;
-    // -webkit-line-clamp: 4;
-    // -webkit-box-orient: vertical;
   }
-  &_points {
+  &__points {
     display: flex;
     gap: 20px;
     position: absolute;
@@ -41,7 +38,7 @@
     z-index: -1;
   }
   &:nth-child(4n) {
-    .order__item_points {
+    .order-list__points {
       @media screen and (max-width: 1059px) {
         display: none;
       }
@@ -54,7 +51,7 @@
     }
   }
   &:nth-child(3n) {
-    .order__item_points {
+    .order-list__points {
       @media screen and (max-width: 839px) {
         display: none;
       }
@@ -67,23 +64,22 @@
     }
   }
   &:nth-child(2n) {
-    .order__item_points {
+    .order-list__points {
       @media screen and (max-width: 622px) {
         display: none;
       }
     }
   }
   &:first-child {
-    .order__item_points {
+    .order-list__points {
       @media screen and (max-width: 410px) {
         display: none;
       }
     }
   }
   &:last-child {
-    .order__item_points {
+    .order-list__points {
       display: none;
     }
   }
 }
-

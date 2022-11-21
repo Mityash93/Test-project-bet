@@ -1,10 +1,10 @@
 import React from "react";
-import s from "./AboutUs.module.scss";
+import "./AboutUs.scss";
 
 const AboutUs = () => {
   return (
-    <section className={s.intro}>
-      <div className={s.intro__content}>О нас</div>
+    <section className="intro-aboutUs">
+      <div className="intro-aboutUs__content">О нас</div>
     </section>
   );
 };

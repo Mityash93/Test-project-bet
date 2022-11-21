@@ -1,10 +1,10 @@
 import React from "react";
-import s from "./Price.module.scss";
+import "./Price.scss";
 
 const Price = () => {
   return (
-    <section className={s.intro}>
-      <div className={s.intro__content}>Цены</div>
+    <section className="intro-price">
+      <div className="intro-price__content">Цены</div>
     </section>
   );
 };

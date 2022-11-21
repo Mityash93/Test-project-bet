@@ -9,20 +9,20 @@
     gap: 20px;
     padding: 30px 10px;
     flex-wrap: wrap;
-    &_divider {
-      height: 18px;
-      border-right: 1px solid $footer-gray;
-      @media screen and (max-width: 1200px) {
-        max-width: 400px;
-        height: unset;
-        width: 100%;
-        border-right: unset;
-        border-bottom: 1px solid $footer-gray;
-      }
-    }
     @media screen and (max-width: 1200px) {
       justify-content: center;
       flex-direction: column;
+    }
+  }
+  &__divider {
+    height: 18px;
+    border-right: 1px solid $footer-gray;
+    @media screen and (max-width: 1200px) {
+      max-width: 400px;
+      height: unset;
+      width: 100%;
+      border-right: unset;
+      border-bottom: 1px solid $footer-gray;
     }
   }
   &__label {

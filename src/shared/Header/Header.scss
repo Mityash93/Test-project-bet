@@ -21,38 +21,34 @@
       padding: 20px 10px;
     }
   }
-  &__logo {
+  &__logo-wrapper {
     font-weight: 800;
     font-size: 28px;
     text-transform: uppercase;
     cursor: pointer;
-
-    &_white {
-      color: $white;
-      transition: 0.3s;
-    }
-
-    &_blue {
-      color: $logo-blue;
-    }
-
+  }
+  &__logo-white {
+    color: $white;
+    transition: 0.3s;
     &:hover {
-      & .header__logo_white {
-        color: $logo-blue;
-      }
+      color: $logo-blue;
     }
   }
 
-  &__nav {
+  &__logo-blue {
+    color: $logo-blue;
+  }
+
+  &-nav {
     max-width: 435px;
     width: 100%;
 
-    &_list {
+    &__list {
       display: flex;
       justify-content: space-between;
     }
 
-    &_item {
+    &__item {
       color: $white;
       font-weight: 600;
       font-size: 13px;

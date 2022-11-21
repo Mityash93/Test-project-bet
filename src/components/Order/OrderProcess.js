@@ -1,16 +1,16 @@
 import React from "react";
-import s from "./OrderProcess.module.scss";
+import "./OrderProcess.scss";
 import Point from "./Point";
 
 const OrderProcess = ({ img, text }) => {
   return (
-    <li className={s.order__item}>
-      <div className={s.order__item_step}>
-        <div className={s.order__item_img}>
+    <li className="order-list">
+      <div className="order-list__step">
+        <div className="order-list__img">
           <img src={img} alt={text} />
         </div>
-        <div className={s.order__item_text} >{text}</div>
-        <ul className={s.order__item_points} >
+        <div className="order-list__text" >{text}</div>
+        <ul className="order-list__points" >
             <Point/>
             <Point/>
             <Point/>

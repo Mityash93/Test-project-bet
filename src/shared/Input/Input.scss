@@ -1,0 +1,24 @@
+@import "../../styles/variables.scss";
+
+.input {
+  &__content {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $white;
+    border-radius: 3px;
+    background-color: $input-bg;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: $input-color;
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: $white;
+      border: 1px solid $blue;
+    }
+    &::placeholder {
+      color: $placeholder-color;
+    }
+  }
+}

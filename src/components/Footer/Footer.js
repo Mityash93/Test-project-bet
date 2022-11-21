@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Footer.module.scss";
+import "./Footer.scss";
 import qiwi from "../../assets/images/qiwi.svg";
 import money from "../../assets/images/web-money.svg";
 import yandex from "../../assets/images/yandex-money.svg";
@@ -9,20 +9,20 @@ import FooterPay from "./FooterPay";
 
 const Footer = () => {
   return (
-    <footer className={s.footer}>
+    <footer className="footer">
       <div className="container">
-        <div className={s.footer__content}>
-          <span className={s.footer__label}>
+        <div className="footer__content">
+          <span className="footer__label">
             © 2018 «LOREMIPSUM.NET» Все права защищены.
           </span>
-          <div className={s.footer__content_divider}></div>
-          <ul className={s.footer__pay}>
+          <div className="footer__divider"></div>
+          <ul className="footer__pay">
             <FooterPay img={qiwi} text={"Qiwi wallet"} />
             <FooterPay img={yandex} text={"Yandex Money"} />
             <FooterPay img={money} text={"Web Money"} />
           </ul>
-          <div className={s.footer__content_divider}></div>
-          <ul className={s.footer__contacts}>
+          <div className="footer__divider"></div>
+          <ul className="footer__contacts">
             <li>
               <a href="mailto:info@ipsum228.com">
                 <img src={mail} alt="mail" />

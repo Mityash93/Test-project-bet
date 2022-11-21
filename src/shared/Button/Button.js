@@ -1,19 +1,19 @@
 import React from "react";
-import s from "./Button.module.scss";
+import "./Button.scss";
 
-const Button = ({ text, description }) => {
+const Button = ({ text, description, className }) => {
   return (
-    <div>
+    <>
       {description === "blue" ? (
-        <button type="submit" className={`${s.button} ${s.button__blue}`}>
+        <button type="submit" className={`button__main ${className}`}>
           {text}
         </button>
       ) : (
-        <button type="submit" className={`${s.button} ${s.button__white}`}>
+        <button type="submit" className={`button__main ${className}`}>
           {text}
         </button>
       )}
-    </div>
+    </>
   );
 };
 
