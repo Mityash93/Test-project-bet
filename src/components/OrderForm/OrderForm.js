@@ -13,16 +13,16 @@ const OrderForm = () => {
         <Input name={"name"} placeholder={"Ваше имя"} />
       </div>
       <div className="order-form__middle form-middle">
-        <div class="order-form__diapazon">
-          <div class="order-form__title">
+        <div className="order-form__diapazon">
+          <div className="order-form__title">
             <span>Sed ut perspiciatis, unde omnis iste natus</span>
             <span>75 %</span>
           </div>
           <Input name={"percent"} type={"range"} />
         </div>
-        <label class="order-form__file" for="order-file">
+        <label className="order-form__file" >
           Прикрепить файл
-          <input type="file" id="order-file" />
+          <input type="file" />
         </label>
       </div>
       <div className="order-form__button button">
