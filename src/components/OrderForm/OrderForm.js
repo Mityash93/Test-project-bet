@@ -18,7 +18,7 @@ const OrderForm = () => {
             <span>Sed ut perspiciatis, unde omnis iste natus</span>
             <span>75 %</span>
           </div>
-          <main-input name="percent" type="range" />
+          <Input name={"percent"} type={"range"} />
         </div>
         <label class="order-form__file" for="order-file">
           Прикрепить файл
