@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../../shared/Button/Button";
-import Input from "../../shared/Input/Input";
-import Select from "../../shared/Select/Select";
+import Button from "../Button/Button";
+import Input from "../Input/Input";
+import Select from "../Select/Select";
 import "./OrderForm.scss";
 
 const OrderForm = () => {
@@ -28,7 +28,6 @@ const OrderForm = () => {
       <div className="order-form__button button">
         <Button
           text={"отправить"}
-          description={"blue"}
           className={"button__main_blue-long"}
         />
       </div>

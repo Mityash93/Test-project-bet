@@ -20,12 +20,12 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/AboutUs" className="header-nav__item">
+                <Link to="/about-us" className="header-nav__item">
                   О нас
                 </Link>
               </li>
               <li>
-                <Link to="/Price" className="header-nav__item">
+                <Link to="/price" className="header-nav__item">
                   Цены
                 </Link>
               </li>

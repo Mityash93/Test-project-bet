@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 
-const SelectItem = ({open, hidden}) => {
+const SelectItem = ({ open, hidden }) => {
+  const [text, setText] = useState("Выберите тип системы");
 
-    const [text, setText] = useState("Выберите тип системы");
-
-    const chooseText = (e) => {
-        setText(e.target.innerText)
-    }
+  const chooseText = (e) => {
+    setText(e.target.innerText);
+  };
 
   return (
     <>
@@ -23,7 +22,3 @@ const SelectItem = ({open, hidden}) => {
 };
 
 export default SelectItem;
-
-
-
-

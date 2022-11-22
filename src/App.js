@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Home from "./pages/Home/Home";
 import Price from "./pages/Price/Price";
-import Header from "./shared/Header/Header";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/Price" element={<Price />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/price" element={<Price />} />
       </Routes>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.scss";
-import Button from "../../shared/Button/Button";
+import Button from "../Button/Button";
 
 const Intro = () => {
   return (
@@ -28,12 +28,10 @@ const Intro = () => {
           <div className="intro__actions button">
             <Button
               text={"заказать"}
-              description={"blue"}
               className={"button__main_blue"}
             />
             <Button
               text={"подробнее"}
-              description={"white"}
               className="button__main_white"
             />
           </div>
