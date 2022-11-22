@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./Header.scss"
+import "./Header.scss";
 
 
 const Header = () => {
@@ -15,22 +14,22 @@ const Header = () => {
           <nav className="header__nav header-nav">
             <ul className="header-nav__list">
               <li>
-                <Link to="https://mityash93.github.io/Test-project-bet/" className="header-nav__item">
+                <a href="/" className="header-nav__item">
                   Бизнес
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://mityash93.github.io/Test-project-bet/about-us" className="header-nav__item">
+                <a href="/" className="header-nav__item">
                   О нас
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://mityash93.github.io/Test-project-bet/price" className="header-nav__item">
+                <a href="/" className="header-nav__item">
                   Цены
-                </Link>
+                </a>
               </li>
               <li>
-                <a href="https://mityash93.github.io/Test-project-bet/#order" className="header-nav__item">
+                <a href="/#order" className="header-nav__item">
                   Оформить заказ
                 </a>
               </li>
