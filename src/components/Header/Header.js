@@ -14,22 +14,22 @@ const Header = () => {
           <nav className="header__nav header-nav">
             <ul className="header-nav__list">
               <li>
-                <a href="/" className="header-nav__item">
+                <a href="#" className="header-nav__item">
                   Бизнес
                 </a>
               </li>
               <li>
-                <a href="/" className="header-nav__item">
+                <a href="#" className="header-nav__item">
                   О нас
                 </a>
               </li>
               <li>
-                <a href="/" className="header-nav__item">
+                <a href="#" className="header-nav__item">
                   Цены
                 </a>
               </li>
               <li>
-                <a href="/order" className="header-nav__item">
+                <a href="#" className="header-nav__item">
                   Оформить заказ
                 </a>
               </li>
