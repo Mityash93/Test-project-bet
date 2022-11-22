@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Test-project-bet/static/css/main.dfbfa1ad.css",
-    "main.js": "/Test-project-bet/static/js/main.9a481756.js",
-    "static/js/787.a526e8cd.chunk.js": "/Test-project-bet/static/js/787.a526e8cd.chunk.js",
-    "static/media/Main-img.png": "/Test-project-bet/static/media/Main-img.ea4d3dd8257b4b9b9bd3.png",
-    "static/media/Order-img.png": "/Test-project-bet/static/media/Order-img.8216eac73ebe666f85f7.png",
-    "static/media/qiwi.svg": "/Test-project-bet/static/media/qiwi.043cff482e71f0190d70b75d27b13503.svg",
-    "static/media/document.svg": "/Test-project-bet/static/media/document.d85d1a6e6c8421a0454c78d2b87faaca.svg",
-    "static/media/vk.svg": "/Test-project-bet/static/media/vk.5b50bd20da140716ac033016312f2e36.svg",
-    "static/media/web-money.svg": "/Test-project-bet/static/media/web-money.0abae4219b3bfcacb0e049f107ff1a02.svg",
-    "static/media/file.svg": "/Test-project-bet/static/media/file.550d16797fc2856fa953.svg",
-    "static/media/percent.svg": "/Test-project-bet/static/media/percent.dbc4ea38afbc57971953a4dab94dd4ee.svg",
-    "static/media/mail.svg": "/Test-project-bet/static/media/mail.42b454db79341f089bfa365275977b30.svg",
-    "static/media/message.svg": "/Test-project-bet/static/media/message.f097912543c09e2c2b443494eb7c5409.svg",
-    "static/media/money.svg": "/Test-project-bet/static/media/money.501288a964f6654e64bb0b942bab9509.svg",
-    "static/media/yandex-money.svg": "/Test-project-bet/static/media/yandex-money.69b2c7c30bce5661de9fa79801baa919.svg",
-    "static/media/search.svg": "/Test-project-bet/static/media/search.50ea3d7539a517e372e730f75e1bdcc7.svg",
-    "index.html": "/Test-project-bet/index.html",
-    "main.dfbfa1ad.css.map": "/Test-project-bet/static/css/main.dfbfa1ad.css.map",
-    "main.9a481756.js.map": "/Test-project-bet/static/js/main.9a481756.js.map",
-    "787.a526e8cd.chunk.js.map": "/Test-project-bet/static/js/787.a526e8cd.chunk.js.map"
+    "main.css": "/static/css/main.c4cfc64a.css",
+    "main.js": "/static/js/main.8ec86b8b.js",
+    "static/js/787.a526e8cd.chunk.js": "/static/js/787.a526e8cd.chunk.js",
+    "static/media/Main-img.png": "/static/media/Main-img.ea4d3dd8257b4b9b9bd3.png",
+    "static/media/Order-img.png": "/static/media/Order-img.8216eac73ebe666f85f7.png",
+    "static/media/qiwi.svg": "/static/media/qiwi.043cff482e71f0190d70b75d27b13503.svg",
+    "static/media/document.svg": "/static/media/document.d85d1a6e6c8421a0454c78d2b87faaca.svg",
+    "static/media/vk.svg": "/static/media/vk.5b50bd20da140716ac033016312f2e36.svg",
+    "static/media/web-money.svg": "/static/media/web-money.0abae4219b3bfcacb0e049f107ff1a02.svg",
+    "static/media/file.svg": "/static/media/file.550d16797fc2856fa953.svg",
+    "static/media/percent.svg": "/static/media/percent.dbc4ea38afbc57971953a4dab94dd4ee.svg",
+    "static/media/mail.svg": "/static/media/mail.42b454db79341f089bfa365275977b30.svg",
+    "static/media/message.svg": "/static/media/message.f097912543c09e2c2b443494eb7c5409.svg",
+    "static/media/money.svg": "/static/media/money.501288a964f6654e64bb0b942bab9509.svg",
+    "static/media/yandex-money.svg": "/static/media/yandex-money.69b2c7c30bce5661de9fa79801baa919.svg",
+    "static/media/search.svg": "/static/media/search.50ea3d7539a517e372e730f75e1bdcc7.svg",
+    "index.html": "/index.html",
+    "main.c4cfc64a.css.map": "/static/css/main.c4cfc64a.css.map",
+    "main.8ec86b8b.js.map": "/static/js/main.8ec86b8b.js.map",
+    "787.a526e8cd.chunk.js.map": "/static/js/787.a526e8cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfbfa1ad.css",
-    "static/js/main.9a481756.js"
+    "static/css/main.c4cfc64a.css",
+    "static/js/main.8ec86b8b.js"
   ]
 }
