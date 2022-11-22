@@ -10,7 +10,7 @@ import OrderProcess from "./OrderProcess";
 
 const Order = () => {
   return (
-    <section className="order" id="order">
+    <section className="order">
       <div className="container">
         <div className="order__content">
           <h2 className="order__heading">

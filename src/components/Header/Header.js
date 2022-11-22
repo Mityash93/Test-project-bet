@@ -29,7 +29,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="/#order" className="header-nav__item">
+                <a href="/order" className="header-nav__item">
                   Оформить заказ
                 </a>
               </li>
