@@ -9,9 +9,9 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/price" element={<Price />} />
+        <Route path="https://mityash93.github.io/Test-project-bet/" element={<Home />} />
+        <Route path="https://mityash93.github.io/Test-project-bet/about-us" element={<AboutUs />} />
+        <Route path="https://mityash93.github.io/Test-project-bet/price" element={<Price />} />
       </Routes>
     </div>
   );

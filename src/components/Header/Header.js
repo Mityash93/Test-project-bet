@@ -15,22 +15,22 @@ const Header = () => {
           <nav className="header__nav header-nav">
             <ul className="header-nav__list">
               <li>
-                <Link to="/" className="header-nav__item">
+                <Link to="https://mityash93.github.io/Test-project-bet/" className="header-nav__item">
                   Бизнес
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="header-nav__item">
+                <Link to="https://mityash93.github.io/Test-project-bet/about-us" className="header-nav__item">
                   О нас
                 </Link>
               </li>
               <li>
-                <Link to="/price" className="header-nav__item">
+                <Link to="https://mityash93.github.io/Test-project-bet/price" className="header-nav__item">
                   Цены
                 </Link>
               </li>
               <li>
-                <a href="/#order" className="header-nav__item">
+                <a href="https://mityash93.github.io/Test-project-bet/#order" className="header-nav__item">
                   Оформить заказ
                 </a>
               </li>
