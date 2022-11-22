@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Test-project-bet/static/css/main.79c498db.css",
-    "main.js": "/Test-project-bet/static/js/main.e95d8d5f.js",
+    "main.js": "/Test-project-bet/static/js/main.001eb15c.js",
     "static/js/787.a526e8cd.chunk.js": "/Test-project-bet/static/js/787.a526e8cd.chunk.js",
     "static/media/Main-img.png": "/Test-project-bet/static/media/Main-img.ea4d3dd8257b4b9b9bd3.png",
     "static/media/Order-img.png": "/Test-project-bet/static/media/Order-img.8216eac73ebe666f85f7.png",
@@ -18,11 +18,11 @@
     "static/media/search.svg": "/Test-project-bet/static/media/search.50ea3d7539a517e372e730f75e1bdcc7.svg",
     "index.html": "/Test-project-bet/index.html",
     "main.79c498db.css.map": "/Test-project-bet/static/css/main.79c498db.css.map",
-    "main.e95d8d5f.js.map": "/Test-project-bet/static/js/main.e95d8d5f.js.map",
+    "main.001eb15c.js.map": "/Test-project-bet/static/js/main.001eb15c.js.map",
     "787.a526e8cd.chunk.js.map": "/Test-project-bet/static/js/787.a526e8cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79c498db.css",
-    "static/js/main.e95d8d5f.js"
+    "static/js/main.001eb15c.js"
   ]
 }
